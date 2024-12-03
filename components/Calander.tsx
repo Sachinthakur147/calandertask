@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import FullCalendar, { DateClickArg, EventClickArg } from "@fullcalendar/react";
+import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
-import interactionPlugin from "@fullcalendar/interaction";
+import interactionPlugin, { DateClickArg } from "@fullcalendar/interaction"; 
 import timeGridPlugin from "@fullcalendar/timegrid";
+import { EventClickArg } from "@fullcalendar/core";
 import Swal from "sweetalert2";
 
 
